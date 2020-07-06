@@ -36,6 +36,7 @@ public class TranslateServlet extends HttpServlet {
                         chinese = "不认识的单词";
                     }
                 }
+                //
             }
         } catch (SQLException e) {
             throw new ServletException(e);
