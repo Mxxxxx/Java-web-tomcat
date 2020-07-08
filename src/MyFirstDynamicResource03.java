@@ -17,6 +17,6 @@ public class MyFirstDynamicResource03 extends HttpServlet {
         String text = req.getParameter("text");
         resp.setContentType("text/html; charset=utf-8");
         PrintWriter writer = resp.getWriter();
-        writer.println("<h1> 我text </h1>");
+        writer.println("<h1> 我text" + text + " </h1>");
     }
 }
